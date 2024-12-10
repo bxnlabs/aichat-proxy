@@ -6,7 +6,7 @@ FROM base AS build
 ARG TARGETPLATFORM
 
 # renovate: datasource=github-releases packageName=sigoden/aichat versioning=semver
-ARG AICHAT_VERSION=v0.24.0
+ARG AICHAT_VERSION=v0.25.0
 
 RUN apt-get update && apt-get install curl
 
