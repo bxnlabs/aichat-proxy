@@ -1,4 +1,4 @@
-FROM ghcr.io/bxnlabs/containers/base:20250831.1_90e3c9f@sha256:675e4d83cbc80a8cc6194f2286a38229d05c314d3e0fff3c58e58ef8b04af695 AS base
+FROM ghcr.io/bxnlabs/containers/base:20250903.1_133b15e@sha256:675d45e10102e73a5855c13b6f61047b76e1e968d3084e68c6e4813b4ff56304 AS base
 
 
 FROM base AS build
